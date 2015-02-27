@@ -4,5 +4,5 @@
 Composer:
 
 ```
-require: "cjp2600/hivarCache": ">=1.0.0"
+require: "cjp2600/hivarcache": ">=1.0.2"
 ```
