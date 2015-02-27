@@ -18,11 +18,11 @@ class HiVarCache
     /**
      * @var
      */
-    protected $instance;
+    protected static $instance;
     /**
      * @var array
      */
-    protected $data = array();
+    protected static $data = array();
 
     /**
      *
@@ -33,33 +33,37 @@ class HiVarCache
 
     /**
      * getInstance
-     * @return mixed
+     * @return HiVarCache
      */
     public static function getInstance()
     {
         if (!self::$instance) {
             self::$instance = new self();
         }
+
         return self::$instance;
     }
 
     /**
-     * __get
+     * get
      * @param $key
      * @return null
      */
-    public function __get($key)
+    public function get($key)
     {
-        return isset($this->data[$key]) ? $this->data[$key] : null;
+        self::getInstance();
+
+        return isset(self::$data[$key]) ? self::$data[$key] : null;
     }
 
     /**
-     * __set
+     * set
      * @param $key
      * @param $value
      */
-    public function __set($key, $value)
+    public function set($key, $value)
     {
-        $this->data[$key] = $value;
+        self::getInstance();
+        self::$data[$key] = $value;
     }
 }
