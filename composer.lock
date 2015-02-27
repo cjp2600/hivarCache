@@ -1,0 +1,216 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1d970d9b4751e54ab4cf62fc5273fe41",
+    "packages": [
+        {
+            "name": "maximebf/consolekit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximebf/ConsoleKit.git",
+                "reference": "a05c0c5a4c48882599d59323314ac963a836d58f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximebf/ConsoleKit/zipball/a05c0c5a4c48882599d59323314ac963a836d58f",
+                "reference": "a05c0c5a4c48882599d59323314ac963a836d58f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ConsoleKit": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                }
+            ],
+            "description": "Library to create command line utilities",
+            "homepage": "https://github.com/maximebf/ConsoleKit",
+            "keywords": [
+                "cli",
+                "commands",
+                "console",
+                "shell"
+            ],
+            "time": "2014-11-05 18:46:02"
+        },
+        {
+            "name": "noodlehaus/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noodlehaus/config.git",
+                "reference": "0de1025667ab0d9f876b471c97e57bb99a1bc633"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noodlehaus/config/zipball/0de1025667ab0d9f876b471c97e57bb99a1bc633",
+                "reference": "0de1025667ab0d9f876b471c97e57bb99a1bc633",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0",
+                "symfony/yaml": "~2.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Noodlehaus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesus A. Domingo",
+                    "homepage": "http://noodlehaus.github.io/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hassan Khan",
+                    "homepage": "http://hassankhan.me/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "lightweight configuration file loader that supports PHP, INI, XML, JSON, and YAML files",
+            "homepage": "http://noodlehaus.github.io/config/",
+            "keywords": [
+                "config",
+                "configuration",
+                "ini",
+                "json",
+                "microphp",
+                "unframework",
+                "xml",
+                "yaml"
+            ],
+            "time": "2014-11-27 06:22:12"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.7.x-dev",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "43aac3461a5679f486f7c96e4d7e780a59fec997"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/43aac3461a5679f486f7c96e4d7e780a59fec997",
+                "reference": "43aac3461a5679f486f7c96e4d7e780a59fec997",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-11 07:17:51"
+        },
+        {
+            "name": "wp-cli/php-cli-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/php-cli-tools.git",
+                "reference": "b25244cfe2797b5b9bf7ecce41db2e05b72e0e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/b25244cfe2797b5b9bf7ecce41db2e05b72e0e37",
+                "reference": "b25244cfe2797b5b9bf7ecce41db2e05b72e0e37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "cli": "lib/"
+                },
+                "files": [
+                    "lib/cli/cli.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Logsdon",
+                    "email": "jlogsdon@php.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@handbuilt.co",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Console utilities for PHP",
+            "homepage": "http://github.com/wp-cli/php-cli-tools",
+            "keywords": [
+                "cli",
+                "console"
+            ],
+            "time": "2015-01-12 21:45:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
